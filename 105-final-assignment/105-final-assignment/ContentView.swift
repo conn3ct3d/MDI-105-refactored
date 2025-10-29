@@ -30,7 +30,7 @@ struct ContentView: View {
                 }
             }
             .sheet(isPresented: $showAddSheet) {
-                AddEditBookView(album: $newAlbum, onSave:{
+                AddEditAlbumView(album: $newAlbum, onSave:{
                     albums.append(newAlbum)
                 })
             }

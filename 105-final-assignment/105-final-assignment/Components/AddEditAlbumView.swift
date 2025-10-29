@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AddEditBookView: View {
+struct AddEditAlbumView: View {
     
     @Binding var album: Album
     

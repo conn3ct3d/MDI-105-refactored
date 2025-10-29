@@ -42,6 +42,41 @@ func getAlbums() -> [Album]
                 rating: 5,
                 listeningStatus: .listened,
                 genre: .rock
-            )
+            ),
+            Album(
+                            albumName: "Son of Earth and Sky",
+                            albumAuthor: "High Priest of Saturn",
+                            albumArt: "note",
+                            albumYearOfRelease: 2016,
+                            notes: "Norwegian psychedelic stoner/doom metal.",
+                            review: "Heavy, fuzzed-out, and atmospheric.",
+                            rating: 5,
+                            listeningStatus: .toListen,
+                            genre: .rock
+                        ),
+                        
+                        Album(
+                            albumName: "Welcome to Sky Valley",
+                            albumAuthor: "Kyuss",
+                            albumArt: "note",
+                            albumYearOfRelease: 1994,
+                            notes: "A seminal album in the desert and stoner rock scene.",
+                            review: "Essential listening. Defined a generation of fuzzed-out guitar tones.",
+                            rating: 5,
+                            listeningStatus: .listened,
+                            genre: .rock
+                        ),
+                        
+                        Album(
+                            albumName: "Dopethrone",
+                            albumAuthor: "Electric Wizard",
+                            albumArt: "note",
+                            albumYearOfRelease: 2000,
+                            notes: "Often cited as one of the heaviest stoner/doom albums.",
+                            review: "Crushing, bleak, and monumentally heavy.",
+                            rating: 5,
+                            listeningStatus: .toListen,
+                            genre: .rock
+                        )
         ]
 }
